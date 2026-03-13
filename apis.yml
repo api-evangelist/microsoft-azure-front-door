@@ -1,0 +1,33 @@
+aid: microsoft-azure-front-door
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-azure-front-door:rest-api
+    name: Azure Front Door REST API
+    tags:
+      - CDN
+      - Load Balancing
+      - WAF
+      - Global Routing
+      - Edge
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://management.azure.com/
+    humanURL: https://learn.microsoft.com/en-us/rest/api/frontdoor/
+    properties:
+      - url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
+        type: Documentation
+    description: >-
+      Azure Front Door REST API provides management of global load balancing and web application firewall services. It supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and performant application delivery.
+common:
+  - type: Portal
+    url: https://portal.azure.com/
+  - type: Pricing
+    url: https://azure.microsoft.com/en-us/pricing/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
