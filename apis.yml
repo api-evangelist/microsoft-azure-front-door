@@ -1,17 +1,15 @@
 aid: microsoft-azure-front-door
-url: 
-  https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml
 apis:
   - aid: microsoft-azure-front-door:rest-api
     name: Azure Front Door REST API
     tags:
       - CDN
+      - Edge
+      - Global Routing
       - Load Balancing
       - WAF
-      - Global Routing
-      - Edge
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/frontdoor/
     properties:
