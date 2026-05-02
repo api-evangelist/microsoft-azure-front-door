@@ -3,14 +3,20 @@ Azure Front Door REST API provides management of global load balancing and web a
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml)
 
+## Scope
+
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
+
 ## Tags:
 
- - CDN, Load Balancing, WAF, Global Routing, Edge
+ - CDN, Edge, Global Routing, Load Balancing, WAF
 
 ## Timestamps
 
 - **Created:** 2026-03-13
-- **Modified:** 2026-03-13
+- **Modified:** 2026-04-28
 
 ## APIs
 
