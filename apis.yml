@@ -30,6 +30,8 @@ apis:
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/frontdoor/
     properties:
+      - url: openapi/microsoft-azure-front-door-openapi.yml
+        type: OpenAPI
       - url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
         type: Documentation
     description: >-
