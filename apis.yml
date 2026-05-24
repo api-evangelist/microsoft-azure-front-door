@@ -52,6 +52,8 @@ common:
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
+  - type: LLMsTxt
+    url: https://portal.azure.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
