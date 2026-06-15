@@ -1,8 +1,9 @@
 aid: microsoft-azure-front-door
 name: Azure Front Door
-description: Azure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic.
-  The REST API supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure
-  and performant application delivery at the edge.
+description: >-
+  Azure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic. The REST
+  API supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and
+  performant application delivery at the edge.
 type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -19,26 +20,23 @@ apis:
   - aid: microsoft-azure-front-door:rest-api
     name: Azure Front Door REST API
     tags:
-    - CDN
-    - Edge
-    - Global Routing
-    - Load Balancing
-    - WAF
+      - CDN
+      - Edge
+      - Global Routing
+      - Load Balancing
+      - WAF
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/frontdoor/
     properties:
-    - url: openapi/microsoft-azure-front-door-openapi.yml
-      type: OpenAPI
-    - url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
-      type: Documentation
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-front-door-operations.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-front-door-profiles.yaml
-    description: Azure Front Door REST API provides management of global load balancing and web application firewall services.
-      It supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and performant
-      application delivery.
+      - url: openapi/microsoft-azure-front-door-openapi.yml
+        type: OpenAPI
+      - url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
+        type: Documentation
+    description: >-
+      Azure Front Door REST API provides management of global load balancing and web application firewall services. It
+      supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and
+      performant application delivery.
 common:
   - type: GitHubOrganization
     url: https://github.com/Azure
