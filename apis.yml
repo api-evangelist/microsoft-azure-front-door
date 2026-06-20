@@ -5,7 +5,7 @@ description: >-
   API supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and
   performant application delivery at the edge.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - CDN
   - Edge
@@ -25,7 +25,7 @@ apis:
       - Global Routing
       - Load Balancing
       - WAF
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/frontdoor/
     properties:
