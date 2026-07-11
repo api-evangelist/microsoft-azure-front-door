@@ -38,6 +38,10 @@ apis:
       supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and
       performant application delivery.
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-front-door-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-front-door-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-front-door-scopes.yml
   - type: GitHubOrganization
