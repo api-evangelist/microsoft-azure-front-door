@@ -38,6 +38,8 @@ apis:
       supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and
       performant application delivery.
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-front-door-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-front-door-domain-security.yml
   - type: Authentication
