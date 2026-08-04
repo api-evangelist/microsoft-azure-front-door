@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-front-door",
+  "sources": [
+    "microsoft-azure-front-door-operations-api-openapi.yml",
+    "microsoft-azure-front-door-profiles-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-front-door-operations-api-openapi.yml",
+    "microsoft-azure-front-door-profiles-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
