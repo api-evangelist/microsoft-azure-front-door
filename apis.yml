@@ -68,6 +68,9 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
 common:
+  - type: CapabilityMap
+    url: capabilities/microsoft-azure-front-door-capability-edges.yml
+    name: Azure Front Door Business Capability Map
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-front-door-agentic-access.yml
   - type: DomainSecurity
