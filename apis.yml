@@ -68,6 +68,8 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
 common:
+  - type: Website
+    url: https://www.microsoft.com/
   - type: CapabilityMap
     url: capabilities/microsoft-azure-front-door-capability-edges.yml
     name: Azure Front Door Business Capability Map
@@ -96,3 +98,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: microsoft-azure
+x-relationship: product
