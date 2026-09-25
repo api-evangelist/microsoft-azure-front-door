@@ -68,6 +68,8 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
 common:
+  - type: VendorFacets
+    url: vendor-facets/microsoft-azure-front-door-vendor-facets.yml
   - type: Plans
     url: plans/microsoft-azure-front-door-plans-pricing.yml
   - type: Website
