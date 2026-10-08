@@ -68,6 +68,10 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/frontdoor/
 common:
+  - type: RateLimits
+    url: rate-limits/microsoft-azure-front-door-rate-limits.yml
+  - type: FinOps
+    url: finops/microsoft-azure-front-door-finops.yml
   - type: VendorFacets
     url: vendor-facets/microsoft-azure-front-door-vendor-facets.yml
   - type: Plans
