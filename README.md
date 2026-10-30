@@ -1,4 +1,4 @@
-# Azure Front Door (microsoft-azure-front-door)
+# Azure Front Door
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,60 +66,126 @@
 
 Azure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic. The REST API supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and performant application delivery at the edge.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml)
+**Areas:** CDN · Edge · Global Routing · Load Balancing · WAF
 
-## Scope
+## Azure Front Door on APIs.io
 
-- **Type:** Index
+Everything profiled for Azure Front Door is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-azure-front-door/](https://apis.io/providers/microsoft-azure-front-door/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- CDN
-- Edge
-- Global Routing
-- Load Balancing
-- WAF
+- [Azure Front Door Operations API](https://apis.io/apis/microsoft-azure-front-door/microsoft-azure-front-door-operations-api/) — Operations operations
+- [Azure Front Door Profiles API](https://apis.io/apis/microsoft-azure-front-door/microsoft-azure-front-door-profiles-api/) — Profiles operations
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Azure Front Door REST API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Azure Front Door REST API provides management of global load balancing and web application firewall services. It supports configuring routing rules, backend pools, health probes, caching policies, and WAF rules for secure and performant application delivery.
+- [Microsoft Azure Front Door Agentic Access](https://apis.io/agentic-access/microsoft-azure-front-door/microsoft-azure-front-door-agentic-access/)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/frontdoor/](https://learn.microsoft.com/en-us/rest/api/frontdoor/)
-- **Base URL:** `https://management.azure.com/`
+#### Collections (3)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- CDN
-- Edge
-- Global Routing
-- Load Balancing
-- WAF
+- [Azure Front Door REST API](https://apis.io/collections/microsoft-azure-front-door/open-microsoft-azure-front-door/)
+- [Azure Front Door REST Operations API](https://apis.io/collections/microsoft-azure-front-door/open-microsoft-azure-front-door-operations-api/)
+- [Azure Front Door REST Operations Profiles API](https://apis.io/collections/microsoft-azure-front-door/open-microsoft-azure-front-door-profiles-api/)
 
-#### Properties
+#### Security (2)
 
-- [OpenAPI](openapi/microsoft-azure-front-door-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/microsoft-azure-front-door.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-front-door.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/frontdoor/)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Microsoft Azure Front Door Authentication](https://apis.io/security/microsoft-azure-front-door/microsoft-azure-front-door-authentication/)
+- [Microsoft Azure Front Door Domain Security](https://apis.io/security/microsoft-azure-front-door/microsoft-azure-front-door-domain-security/)
 
-- [GitHub Organization](https://github.com/Azure)
-- [Portal](https://portal.azure.com/)
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Microsoft Azure Front Door Scopes](https://apis.io/scopes/microsoft-azure-front-door/microsoft-azure-front-door-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Microsoft Azure Front Door Plans Pricing](https://apis.io/plans/microsoft-azure-front-door/microsoft-azure-front-door-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Microsoft Azure Front Door Rate Limits](https://apis.io/rate-limits/microsoft-azure-front-door/microsoft-azure-front-door-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Azure Front Door Finops](https://apis.io/finops/microsoft-azure-front-door/microsoft-azure-front-door-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.microsoft.com/)
 - [Pricing](https://azure.microsoft.com/en-us/pricing/)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 - [Support](https://support.microsoft.com/)
-- [L L Ms Txt](https://portal.azure.com/llms.txt)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/Azure)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 36.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 44.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 31.6 |
+
+**Agent readiness 17.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-azure-front-door/](https://apis.io/providers/microsoft-azure-front-door/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Azure Front Door: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-azure-front-door/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
